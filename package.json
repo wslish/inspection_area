@@ -1,0 +1,14 @@
+{
+  "name": "checking_area",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nnliang/Inspection_area.git"
+  },
+  "author": "nnliang",
+  "license": "ISC",
+}
