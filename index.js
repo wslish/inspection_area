@@ -11,15 +11,12 @@ function check () {
   let argsArray = Array.prototype.slice.call(arguments);
   switch(Number(argsArray.length)) {
     case 1 : 
-      console.log(argsArray.length);
       var args = Boolean(inspecte[argsArray[0].trim()]);
       break;
     case 2 : 
-      console.log(argsArray.length);
       var args = Boolean(inspecte[argsArray[0].trim()][argsArray[1].trim()]);
       break;
     case 3 :
-      console.log(argsArray.length);
       var args = String(inspecte[argsArray[0].trim()][argsArray[1].trim()]).includes(String(argsArray[2].trim()));
       break;
     default:
