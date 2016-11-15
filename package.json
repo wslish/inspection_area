@@ -9,6 +9,7 @@
   "author": "nnliang",
   "license": "ISC",
   "dependencies": {
+    "asyncawait": "^1.0.6",
     "bluebird": "^3.4.6",
     "request-promise": "^4.1.1"
   }

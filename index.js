@@ -2,26 +2,44 @@
 
 const Promise  = require('bluebird');
 const rp       = require('request-promise');
+const _async    = require('asyncawait/async');
+const _await    = require('asyncawait/await');
 const inspecte = require('./until.json');
 
-function check (province, city, area) {
-  province = province.trim();
-  city     = city.trim();
-  if(!area){
-    return Promise.resolve(Boolean(inspecte[province][city]));
-  } else {
-    area = area.trim();
-    return Promise.resolve(inspecte[province][city].includes(area));
+
+function check () {
+  let argsArray = Array.prototype.slice.call(arguments);
+  switch(Number(argsArray.length)) {
+    case 1 : 
+      console.log(argsArray.length);
+      var args = Boolean(inspecte[argsArray[0].trim()]);
+      break;
+    case 2 : 
+      console.log(argsArray.length);
+      var args = Boolean(inspecte[argsArray[0].trim()][argsArray[1].trim()]);
+      break;
+    case 3 :
+      console.log(argsArray.length);
+      var args = String(inspecte[argsArray[0].trim()][argsArray[1].trim()]).includes(String(argsArray[2].trim()));
+      break;
+    default:
+      var args = 'undefined';
+      break;
   }
+  return Promise.resolve(args);
 }
 
-function coordinate(address) {
+function coordinate() {
+  let address = Array.prototype.slice.call(arguments).join('-');
   let url = 'http://api.map.baidu.com/geocoder/v2/?address=' + address + '&output=json&ak=TqWiT4MxdzCSnfiUHGagyPgBy1sadsrs';
   return rp(encodeURI(url))
-  .then(function (t){
-    let location = JSON.parse(t).result.location;
-    return Promise.resolve(location);
-  });
+  .then( t => {
+    let locations = JSON.parse(t).result.location;
+    return Promise.resolve(locations);
+  })
+  .catch( err => {
+    return Promise.reject(err);
+  })
 }
 
 module.exports = {

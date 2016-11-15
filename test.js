@@ -1,16 +1,26 @@
 'use strict'
 
 const Inspecte = require('./index.js');
-const xlsx = require("node-xlsx"); 
 const Promise = require("bluebird");
 
-Inspecte.check('  安徽省','六安市  ')
-.then(t => {
-  console.log(t);
+let province = '陕西省 ';
+let city     = ' 宝鸡市';
+let area     = '金台区 ';
+
+// 检查地址
+Inspecte.check(province, city, area)
+.then( t => {
+  console.log('check ----->',t);
+})
+.catch( err => {
+  return Promise.reject(err);
 })
 
-
-return Inspecte.coordinate('安徽省六安市')
+// 返回坐标
+Inspecte.coordinate(province, city, area)
 .then( t => {
-  console.log(t);
+  console.log('coordinate ----->', t);
+})
+.catch( err => {
+  return Promise.reject(err);
 })
