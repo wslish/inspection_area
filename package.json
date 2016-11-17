@@ -1,7 +1,12 @@
 {
   "name": "checking_area",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "index.js",
+  "scripts": {
+    "start": "npm publish .",
+    "test": "ava test.js",
+    "nyc": "nyc ava test.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nnliang/Inspection_area.git"
@@ -9,8 +14,12 @@
   "author": "nnliang",
   "license": "ISC",
   "dependencies": {
-    "ava": "^0.16.0",
     "bluebird": "^3.4.6",
     "request-promise": "^4.1.1"
+  },
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "gulp": "^3.9.1",
+    "gulp-bump": "^2.5.0"
   }
 }
