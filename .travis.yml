@@ -1,13 +1,8 @@
 language: node_js
-
 node_js:  
-
   - 4 
-
   - 6
-
   - stable
-
-after_success: 
-
-  - npm nyc
+before_script:
+  - npm install -g gulp
+script: gulp
