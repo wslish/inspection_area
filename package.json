@@ -1,6 +1,6 @@
 {
-  "name": "checking_area",
-  "version": "1.0.2",
+  "name": "inspection_area",
+  "version": "1.0.4",
   "main": "index.js",
   "scripts": {
     "start": "npm publish .",
