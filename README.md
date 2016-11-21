@@ -32,7 +32,9 @@ coordinate([province], [city], [area])
 1. 因为本文在查询经纬度使用的百度地图API，有次数限制，请阅读源码并替换
 ```
 -----
-###推荐
+
+###学习
+
 [i5ting][1]
 
 1: https://github.com/i5ting/   "i5ting"
