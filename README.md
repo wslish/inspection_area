@@ -7,13 +7,32 @@
 
 -----
 
-##检查地址
 
+###安装
 ```
 npm install Inspection_area --save
-
-var Inspection = require('Inspection_area')
-
-var (boolean)a = Inspection.check(xxx, xxx, xxx);
+```
+-----
+###使用
 
 ```
+const Inspection = require('Inspection_area');
+```
+-----
+###方法
+```
+check(province, city, [area])
+
+coordinate([province], [city], [area])
+
+```
+-----
+###注意事项
+```
+1. 因为本文在查询经纬度使用的百度地图API，有次数限制，请阅读源码并替换
+```
+-----
+###推荐
+[i5ting][1]
+
+1: https://github.com/i5ting/   "i5ting"
