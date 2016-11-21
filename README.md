@@ -2,8 +2,8 @@
 根据输入的省市区校验输入是否正确，并返回坐标
 
 [![Build Status](https://travis-ci.org/nnliang/Inspection_area.svg?branch=master)](https://travis-ci.org/nnliang/Inspection_area)
-[![Documentation Status](https://readthedocs.org/projects/inspection-area/badge/?version=latest)](http://inspection-area.readthedocs.io/en/latest/?badge=latest)
 [![npm version](https://badge.fury.io/js/inspection_area.svg)](https://badge.fury.io/js/inspection_area)
+[![Documentation Status](https://readthedocs.org/projects/inspection-area/badge/?version=latest)](http://inspection-area.readthedocs.io/en/latest/?badge=latest)
 
 -----
 
