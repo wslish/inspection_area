@@ -1,6 +1,8 @@
+sudo: false
 language: node_js
-node_js:  
+node_js:
   - stable
-before_script:
-  - npm install -g gulp
-script: gulp
+script: 
+  - npm test
+after_success:
+  - npm run report-coverage
