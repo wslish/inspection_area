@@ -37,7 +37,7 @@ typeof $check // boolean
 
 
 ```
-coordinate([province], [city], [area])
+coordinate(province, [city], [area])
 
 返回类型： Object
 
