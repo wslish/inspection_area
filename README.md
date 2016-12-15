@@ -20,10 +20,33 @@ const Inspection = require('Inspection_area');
 ```
 
 ###方法
+
 ```
 check(province, city, [area])
 
+返回类型：boolean
+
+示例：
+
+let $check = Inspecte.check('北京市', '北京市', '朝阳区');
+
+console.log($check)  // true
+typeof $check // boolean
+
+```
+
+
+```
 coordinate([province], [city], [area])
+
+返回类型： Object
+
+示例：
+
+let $coordinate = Inspecte.coordinate('北京市')
+
+console.log($coordinate)  // { lng: 116.39564503787867, lat: 39.92998577808024 }
+typeof $coordinate  // object
 
 ```
 
