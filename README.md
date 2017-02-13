@@ -4,8 +4,9 @@
 
 [![Build Status](https://travis-ci.org/nnliang/Inspection_area.svg?branch=master)](https://travis-ci.org/nnliang/Inspection_area)
 [![npm version](https://badge.fury.io/js/inspection_area.svg)](https://badge.fury.io/js/inspection_area)
+[![Documentation Status](https://readthedocs.org/projects/inspection-area/badge/?version=master)](http://inspection-area.readthedocs.io/en/latest/?badge=master)
 [![Documentation Status](https://readthedocs.org/projects/inspection-area/badge/?version=latest)](http://inspection-area.readthedocs.io/en/latest/?badge=latest)
-
+                
 -----
 ####本项目全国区域划分数据来自：[最新县及县以上行政区划代码（截止2015年9月30日）][2]
 
