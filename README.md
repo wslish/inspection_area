@@ -2,7 +2,7 @@
 
 快速检查手动输入的省市区是否按照标准填写以及根据地址返回坐标
 
-[![Build Status](https://travis-ci.org/nnliang/Inspection_area.svg?branch=master)](https://travis-ci.org/nnliang/Inspection_area)
+[![Build Status](https://travis-ci.org/nnliang/inspection_area.svg?branch=master)
 [![npm version](https://badge.fury.io/js/inspection_area.svg)](https://badge.fury.io/js/inspection_area)
 [![Documentation Status](https://readthedocs.org/projects/inspection-area/badge/?version=master)](http://inspection-area.readthedocs.io/en/latest/?badge=master)
 [![Documentation Status](https://readthedocs.org/projects/inspection-area/badge/?version=latest)](http://inspection-area.readthedocs.io/en/latest/?badge=latest)
