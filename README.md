@@ -8,21 +8,22 @@
 [![Documentation Status](https://readthedocs.org/projects/inspection-area/badge/?version=latest)](http://inspection-area.readthedocs.io/en/latest/?badge=latest)
                 
 -----
-####本项目全国区域划分数据来自：[最新县及县以上行政区划代码（截止2015年9月30日）][2]
+
+#### 本项目全国区域划分数据来自：[最新县及县以上行政区划代码（截止2015年9月30日）][2]
 
 
-###安装
+### 安装
 ```
 npm install Inspection_area --save
 ```
 
-###使用
+### 使用
 
 ```
 const Inspection = require('Inspection_area');
 ```
 
-###方法
+### 方法
 
 1.检查输入的省市区是否正确
 
@@ -58,14 +59,14 @@ typeof $coordinate        // object
 
 ```
 
-###注意事项
+### 注意事项
 
 ```
 1. 因为本文在查询经纬度使用的百度地图API，有次数限制，请阅读源码并替换
 ```
 
 
-###学习
+### 学习
 
 [i5ting][1]
 
