@@ -2,6 +2,7 @@
 
 快速检查手动输入的省市区是否按照标准填写以及根据地址返回坐标
 
+[![JavaScript Style Guide](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 ![Build Status](https://travis-ci.org/nnliang/inspection_area.svg?branch=master)
 [![npm version](https://badge.fury.io/js/inspection_area.svg)](https://badge.fury.io/js/inspection_area)
 [![Coverage Status](https://coveralls.io/repos/github/nnliang/Inspection_area/badge.svg?branch=master)](https://coveralls.io/github/nnliang/Inspection_area?branch=master)
