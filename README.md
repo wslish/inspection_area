@@ -16,13 +16,13 @@
 
 ### 安装
 ```
-npm install Inspection_area --save
+npm install inspection_area --save
 ```
 
 ### 使用
 
 ```
-const Inspection = require('Inspection_area');
+const Inspection = require('inspection_area');
 ```
 
 ### 方法
