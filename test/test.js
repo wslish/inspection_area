@@ -1,7 +1,7 @@
 'use strict'
 
 const test     = require('ava');
-const Inspecte = require('./index.js');
+const Inspecte = require('./../index.js');
 
 var province = '陕西省 ';
 var province1= ' 陕西 ';

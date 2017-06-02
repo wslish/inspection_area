@@ -4,8 +4,8 @@
   "main": "index.js",
   "scripts": {
     "start": "npm publish .",
-    "test": "ava test.js",
-    "nyc": "nyc ava test.js"
+    "test": "ava test",
+    "nyc": "nyc ava test"
   },
   "repository": {
     "type": "git",
