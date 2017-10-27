@@ -27,9 +27,11 @@ const Inspection = require('inspection_area');
 
 ### 方法
 
-1.检查输入的省市区是否正确
+- 检查输入的省市区是否正确
 
+```
 check(province, city, [area])
+```
 
 返回类型：boolean
 
@@ -46,7 +48,9 @@ typeof $check        // boolean
 
 2.根据输入的地址返回相应的坐标
 
+```
 coordinate(province, [city], [area])
+```
 
 返回类型： Object
 
