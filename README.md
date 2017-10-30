@@ -11,7 +11,7 @@
                 
 -----
 
-#### 本项目全国区域划分数据来自：[最新县及县以上行政区划代码（截止2015年9月30日）][2]
+#### 本项目全国区域划分数据来自：[modood][2]
 
 
 ### 安装
@@ -77,4 +77,4 @@ typeof $coordinate        // object
 [i5ting][1]
 
 [1]: https://github.com/i5ting/   "i5ting"
-[2]: http://www.stats.gov.cn/tjsj/tjbz/xzqhdm/201608/t20160809_1386477.html
+[2]: https://github.com/modood/Administrative-divisions-of-China
