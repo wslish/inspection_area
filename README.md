@@ -78,3 +78,8 @@ typeof $coordinate        // object
 
 [1]: https://github.com/i5ting/   "i5ting"
 [2]: https://github.com/modood/Administrative-divisions-of-China
+
+
+## Licence
+
+[MIT License](https://github.com/liees/inspection_area/master/LICENSE)
