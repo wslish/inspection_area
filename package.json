@@ -1,6 +1,6 @@
 {
   "name": "inspection_area",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/ava/cli.js test",
@@ -8,9 +8,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nnliang/Inspection_area.git"
+    "url": "git+https://github.com/liees/inspection_area.git"
   },
-  "author": "nnliang",
+  "author": "liees",
   "license": "ISC",
   "dependencies": {
     "bluebird": "^3.4.6",
