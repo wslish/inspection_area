@@ -1,6 +1,6 @@
 {
   "name": "inspection_area",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/ava/cli.js test",
