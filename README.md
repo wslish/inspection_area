@@ -82,4 +82,4 @@ typeof $coordinate        // object
 
 ## Licence
 
-[MIT License](https://github.com/liees/inspection_area/master/LICENSE)
+[MIT License](https://github.com/liees/inspection_area/blob/master/LICENSE)
