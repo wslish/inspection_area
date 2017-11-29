@@ -59,6 +59,4 @@ typeof isTrue       // boolean
 
 ## Licence
 
-[MIT License](https://github.com/liees/inspection_area/blob/master/LICENSE)
-
-
+this repo is released under the [WTFPL](https://github.com/liees/inspection_area/blob/master/LICENSE) – Do What the Fuck You Want to Public License.
