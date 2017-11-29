@@ -1,6 +1,7 @@
-# Inspection_area
+Inspection_area
+====
 
-快速检查手动输入的省市区是否按照标准填写以及根据地址返回坐标
+Check whether the name entered manually in China's provinces and municipalities is correct
 
 
 [![Build Status](https://travis-ci.org/liees/inspection_area.svg?branch=master)](https://travis-ci.org/liees/inspection_area)
@@ -11,75 +12,53 @@
                 
 -----
 
-#### 本项目全国区域划分数据来自：[modood][2]
+#### The data of the project area nationwide come from：[modood's Administrative-divisions-of-China][2]
 
 
-### 安装
+### Installtion
 ```
 npm install inspection_area --save
 ```
 
-### 使用
+### Use
 
 ```
-const Inspection = require('inspection_area');
+const inspection = require('inspection_area');
 ```
 
-### 方法
+### Function
 
-- 检查输入的省市区是否正确
-
-```
-check(province, city, [area])
-```
-
-返回类型：boolean
+- Check the input provinces and cities are correct
 
 ```
+inspection.check(province, city, [area])
+```
 
-示例：
-
-let $check = Inspecte.check('北京市', '北京市', '朝阳区');
-
-console.log($check)  // true
-typeof $check        // boolean
+return type：boolean
 
 ```
 
-2.根据输入的地址返回相应的坐标
+Example：
 
-```
-coordinate(province, [city], [area])
-```
+let isTrue = inspecte.check('北京市', '北京市', '朝阳区');
 
-返回类型： Object
-
-```
-
-示例：
-
-let $coordinate = Inspecte.coordinate('北京市');
-
-console.log($coordinate)  // { lng: 116.39564503787867, lat: 39.92998577808024 }
-typeof $coordinate        // object
+console.log(isTrue)  // true
+typeof isTrue       // boolean
 
 ```
 
-### 注意事项
-
-```
-1. 因为本文在查询经纬度使用的百度地图API，有次数限制，请阅读源码并替换
-```
-
-
-### 学习
-
-[i5ting][1]
-
-[1]: https://github.com/i5ting/   "i5ting"
 [2]: https://github.com/modood/Administrative-divisions-of-China
 
+## Contributing
+
+1. Fork it
+2. Create your feature branch (git checkout -b my-new-feature)
+3. Commit your changes (git commit -am 'Add some feature')
+4. Push to the branch (git push origin my-new-feature)
+5. Create new Pull Request
 
 ## Licence
 
 [MIT License](https://github.com/liees/inspection_area/blob/master/LICENSE)
+
+
