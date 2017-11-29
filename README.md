@@ -5,7 +5,7 @@ Check whether the name entered manually in China's provinces and municipalities 
 
 
 [![Build Status](https://travis-ci.org/liees/inspection_area.svg?branch=master)](https://travis-ci.org/liees/inspection_area)
-[![npm version](https://badge.fury.io/js/inspection_area.svg)](https://badge.fury.io/js/inspection_area)
+[![npm version](https://img.shields.io/npm/v/inspection_area.svg)](https://badge.fury.io/js/inspection_area)
 [![Coverage Status](https://coveralls.io/repos/github/nnliang/Inspection_area/badge.svg?branch=master)](https://coveralls.io/github/nnliang/Inspection_area?branch=master)
 [![CRAN](https://img.shields.io/badge/license-Do%20What%20the%20Fuck%20You%20Want%20to%20Public%20License-green.svg)](https://github.com/liees/inspection_area/blob/master/LICENSE)
                 
